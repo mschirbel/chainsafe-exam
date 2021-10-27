@@ -8,6 +8,5 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
-      - run: cd /home/runner/work/chainsafe-exam/chainsafe-exam/app
-      - run: npm install
-      - run: npm test
+      - run: npm install app/
+      - run: npm test app/
