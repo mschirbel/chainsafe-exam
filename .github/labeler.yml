@@ -1,12 +1,12 @@
-@team:qa:
+backend:
   - app/src/*
 
-@team:docs:
+qa:
   - app/tests/*
 
-@team:backend:
+docs:
   - app/README.md
 
-@team:devops:
+devops:
   - app/Dockerfile
   - app/Taskfile
