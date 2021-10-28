@@ -1,0 +1,12 @@
+name: chainsafe-label-pr
+on:
+  pull_request:
+    types: [opened, closed, edited]
+
+jobs:
+  Chainsafe-Label-PR:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v3
+        with:
+          repo-token: "${{ secrets.TOKEN }}"
