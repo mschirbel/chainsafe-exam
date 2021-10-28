@@ -1,6 +1,6 @@
 name: chainsafe-label-pr
 on:
-  - pull_request_target
+  - pull_request
 jobs:
   Chainsafe-Label-PR:
     runs-on: ubuntu-latest
