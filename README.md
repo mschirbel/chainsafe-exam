@@ -2,7 +2,7 @@
 
 Hello,
 
-We are very happy that you have reached this point in the process...
+We are very happy that you have reached this point in the process.
 
 We believe that you will enjoy this test very much, we are very sure that it is very
 different from others you might have made in the past, just as we are at ChainSafe :)

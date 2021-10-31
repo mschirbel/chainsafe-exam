@@ -1,10 +1,10 @@
-name: chainsafe-build
+name: chainsafe-build-main
 on:
   pull_request:
     types: [closed]
     branches: [main]
 jobs:
-  Chainsafe-Build:
+  Chainsafe-Build-Main:
     if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
     steps:
